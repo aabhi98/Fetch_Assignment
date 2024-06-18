@@ -1,0 +1,15 @@
+Subject: Clarification and Strategy for Structuring Data
+
+Hi Stake Holder,
+
+I am currently in the process of structuring the JSON data we discussed, and I have drafted an initial relational data model. To proceed effectively, I need some clarifications:
+- Could you specify how often the data will be updated and the main source of these updates?
+- Are there specific fields in the data that often come incomplete that I should be aware of?
+- How do we handle historical data?
+
+Lastly, considering performance and scaling, do you anticipate any specific concerns in these areas, especially with expected data growth?
+
+Looking forward to your insights to optimize and finalize the data structure.
+
+Best regards,
+Abhishek Annabathula
