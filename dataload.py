@@ -2,6 +2,7 @@ import json
 import psycopg2
 from datetime import datetime
 
+#This file transforms the usrr data to relation form
 def transform_user_data(user):
     user_id = user['_id']['$oid'] if user['_id'] and '$oid' in user['_id'] else None
     active = user.get('active', False)
